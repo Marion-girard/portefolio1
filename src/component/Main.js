@@ -43,7 +43,7 @@ function Main ( ){
                 
     
                 
-                <div class="text-white"><p> Hard Skill </p> </div>
+                <div class="text-white text-center"><h1> Skill </h1> </div>
                         <div class="grid grid-cols-4 gap-12 justify-center items-center mx-40">
                             <div class="bg-white w-30 h-10 text-center flex justify-center items-center "> HTML</div>
                             <div class="bg-white w-30  h-10 text-center flex justify-center items-center "> CSS</div>
@@ -62,8 +62,12 @@ function Main ( ){
 
                 
                 
-                
-            
+                <div  class="text-white" > Project</div>
+                    <cards> </cards>
+
+
+                    <div  class="text-white" > Contact</div>
+                    <cards> </cards>
         </main>
         /*<div className="h-screen flex items-center justify-center">
         <div
