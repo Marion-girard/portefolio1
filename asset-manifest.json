@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4b44272a.css",
+    "main.js": "/static/js/main.ee65bb98.js",
+    "static/js/787.4745b4ce.chunk.js": "/static/js/787.4745b4ce.chunk.js",
+    "static/media/frechly_restaurant.png": "/static/media/frechly_restaurant.1812ad2e09b24c1c851c.png",
+    "static/media/fond-steampunck3.jpg": "/static/media/fond-steampunck3.4eac74a3e572c4905fc6.jpg",
+    "static/media/discord.png": "/static/media/discord.c5d378c326de440287db.png",
+    "static/media/miam.png": "/static/media/miam.0c8e61b41513db3df6d9.png",
+    "static/media/demineur.png": "/static/media/demineur.8799a59b27d251d35f53.png",
+    "index.html": "/index.html",
+    "main.4b44272a.css.map": "/static/css/main.4b44272a.css.map",
+    "main.ee65bb98.js.map": "/static/js/main.ee65bb98.js.map",
+    "787.4745b4ce.chunk.js.map": "/static/js/787.4745b4ce.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b44272a.css",
+    "static/js/main.ee65bb98.js"
+  ]
+}
