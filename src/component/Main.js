@@ -1,7 +1,15 @@
 import '../App.css';
 import backgroundImage from '../assets/fond-steampunck3.jpg';
+import frechly from '../assets/frechly_restaurant.png';
+import miam from '../assets/miam.png';
+import discord from '../assets/discord.png';
+import caseBrique from '../assets/casse_brick.png';
+import demineur from '../assets/demineur.png';
 
 function Main ( ){
+
+   
+      
     return(
         <main>
 
@@ -24,7 +32,7 @@ function Main ( ){
                 </div>
 
             </div>
-                <div class="w-screen h-screen " id="moi">
+                <div class="" id="moi">
                     <div  class=" profil   flex justify-center items-center mt-52">
                         <div class="bg-white w-72 flex flex-row ">
                             <h2> profil </h2>
@@ -62,10 +70,61 @@ function Main ( ){
 
                 
                 
-                <div  class="text-white" > Project</div>
-                    <cards> </cards>
+                <div  class="text-white"  > Project</div>
+                    <div class="grid grid-cols-4 justify-center items-center gap-4" >
+                    <cards class="bg-white  h-72 overflow-hidden relative" onClick={() =>{window.location.href='https://marion-girard.github.io/mariongirard.github.io/'}}>
+                        <h1> Freshly Restaurant</h1>
+                        <div className='imageRestaurant'>
+                        <img src={frechly} alt="restaurant" className='restaurant'/>
+                        </div>
+                        <div className='absolute bottom-0 left-0 right-0 p-4 bg-white'>
+                        <p class="text-center"> HTML</p>
+                        <p class="  text-center">CSS</p>
+                        </div>
+                    </cards>
+                    <cards class="bg-white h-72 overflow-hidden relative">
+                        <h1> Miam</h1>
+                        <img src={miam} alt="miam"/>
 
+                        <div className='absolute bottom-0 left-0 right-0 p-4 bg-white'>
+                        <p class="text-center"> HTML</p>
+                        <p class="  text-center">CSS</p>
+                        </div>
+                    </cards>
 
+                    <cards class="bg-white h-72 overflow-hidden relative">
+                        <h1> Discord 2.0</h1>
+                        <div className='imageDiscord'>
+
+                        <img src={discord} alt="restaurant" className='discord'/>
+                        </div>
+                        <div className='absolute bottom-0 left-0 right-0 p-4 bg-white'>
+                        <p class="text-center"> HTML</p>
+                        <p class="  text-center">CSS</p>
+                        </div>
+                        
+                    </cards>
+
+                    <cards class="bg-white h-80 overflow-hidden relative">
+                        <h1> Casse Brique</h1>
+                        <img src={caseBrique} alt="restaurant" className='object-cover w-full h-full'/>
+
+                        <div className='absolute bottom-0 left-0 right-0 p-4 bg-white'>
+                        <p class="text-center"> HTML</p>
+                        <p class="  text-center">CSS</p>
+                        </div>
+                    </cards>
+
+                    <cards class="bg-white h-80 overflow-hidden relative" onClick={() =>{window.location.href='https://demineuse.netlify.app/'}}>
+                        <h1> Demineur</h1>
+                        <img src={demineur} alt="restaurant"/>
+
+                        <div className='absolute bottom-0 left-0 right-0 p-4 bg-white'>
+                        <p class="text-center"> HTML</p>
+                        <p class="  text-center">CSS</p>
+                        </div>
+                    </cards>
+                    </div>
                     <div  class="text-white" > Contact</div>
                     <cards> </cards>
         </main>
